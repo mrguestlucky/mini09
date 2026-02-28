@@ -1,0 +1,20 @@
+{
+  "name": "WhatsApp Bot",
+  "description": "Node.js WhatsApp bot using whatsapp-web.js",
+  "keywords": ["nodejs", "whatsapp", "bot"],
+  "repository": "https://github.com/XRI-DOUBLE07/IMMU-MD",
+  "logo": "https://i.postimg.cc/Y0r8FCB5/Picsart-26-02-28-23-12-59-324.jpg",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
